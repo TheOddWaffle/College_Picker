@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3DB26751B4C2B6F0036C4AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DB26741B4C2B6F0036C4AA /* AppDelegate.swift */; };
+		F3DB26771B4C2B6F0036C4AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DB26761B4C2B6F0036C4AA /* ViewController.swift */; };
+		F3DB267A1B4C2B6F0036C4AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DB26781B4C2B6F0036C4AA /* Main.storyboard */; };
+		F3DB267C1B4C2B6F0036C4AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DB267B1B4C2B6F0036C4AA /* Assets.xcassets */; };
+		F3DB267F1B4C2B6F0036C4AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DB267D1B4C2B6F0036C4AA /* LaunchScreen.storyboard */; };
+		F3DB268A1B4C2B6F0036C4AA /* imageHackwhichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DB26891B4C2B6F0036C4AA /* imageHackwhichTests.swift */; };
+		F3DB26951B4C2B6F0036C4AA /* imageHackwhichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DB26941B4C2B6F0036C4AA /* imageHackwhichUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3DB26861B4C2B6F0036C4AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3DB26691B4C2B6E0036C4AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3DB26701B4C2B6F0036C4AA;
+			remoteInfo = imageHackwhich;
+		};
+		F3DB26911B4C2B6F0036C4AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3DB26691B4C2B6E0036C4AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3DB26701B4C2B6F0036C4AA;
+			remoteInfo = imageHackwhich;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3DB26711B4C2B6F0036C4AA /* imageHackwhich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageHackwhich.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DB26741B4C2B6F0036C4AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3DB26761B4C2B6F0036C4AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3DB26791B4C2B6F0036C4AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3DB267B1B4C2B6F0036C4AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3DB267E1B4C2B6F0036C4AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3DB26801B4C2B6F0036C4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3DB26851B4C2B6F0036C4AA /* imageHackwhichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageHackwhichTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DB26891B4C2B6F0036C4AA /* imageHackwhichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageHackwhichTests.swift; sourceTree = "<group>"; };
+		F3DB268B1B4C2B6F0036C4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3DB26901B4C2B6F0036C4AA /* imageHackwhichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageHackwhichUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DB26941B4C2B6F0036C4AA /* imageHackwhichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageHackwhichUITests.swift; sourceTree = "<group>"; };
+		F3DB26961B4C2B6F0036C4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3DB266E1B4C2B6F0036C4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DB26821B4C2B6F0036C4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DB268D1B4C2B6F0036C4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3DB26681B4C2B6E0036C4AA = {
+			isa = PBXGroup;
+			children = (
+				F3DB26731B4C2B6F0036C4AA /* imageHackwhich */,
+				F3DB26881B4C2B6F0036C4AA /* imageHackwhichTests */,
+				F3DB26931B4C2B6F0036C4AA /* imageHackwhichUITests */,
+				F3DB26721B4C2B6F0036C4AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3DB26721B4C2B6F0036C4AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3DB26711B4C2B6F0036C4AA /* imageHackwhich.app */,
+				F3DB26851B4C2B6F0036C4AA /* imageHackwhichTests.xctest */,
+				F3DB26901B4C2B6F0036C4AA /* imageHackwhichUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3DB26731B4C2B6F0036C4AA /* imageHackwhich */ = {
+			isa = PBXGroup;
+			children = (
+				F3DB26741B4C2B6F0036C4AA /* AppDelegate.swift */,
+				F3DB26761B4C2B6F0036C4AA /* ViewController.swift */,
+				F3DB26781B4C2B6F0036C4AA /* Main.storyboard */,
+				F3DB267B1B4C2B6F0036C4AA /* Assets.xcassets */,
+				F3DB267D1B4C2B6F0036C4AA /* LaunchScreen.storyboard */,
+				F3DB26801B4C2B6F0036C4AA /* Info.plist */,
+			);
+			path = imageHackwhich;
+			sourceTree = "<group>";
+		};
+		F3DB26881B4C2B6F0036C4AA /* imageHackwhichTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3DB26891B4C2B6F0036C4AA /* imageHackwhichTests.swift */,
+				F3DB268B1B4C2B6F0036C4AA /* Info.plist */,
+			);
+			path = imageHackwhichTests;
+			sourceTree = "<group>";
+		};
+		F3DB26931B4C2B6F0036C4AA /* imageHackwhichUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3DB26941B4C2B6F0036C4AA /* imageHackwhichUITests.swift */,
+				F3DB26961B4C2B6F0036C4AA /* Info.plist */,
+			);
+			path = imageHackwhichUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3DB26701B4C2B6F0036C4AA /* imageHackwhich */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3DB26991B4C2B6F0036C4AA /* Build configuration list for PBXNativeTarget "imageHackwhich" */;
+			buildPhases = (
+				F3DB266D1B4C2B6F0036C4AA /* Sources */,
+				F3DB266E1B4C2B6F0036C4AA /* Frameworks */,
+				F3DB266F1B4C2B6F0036C4AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imageHackwhich;
+			productName = imageHackwhich;
+			productReference = F3DB26711B4C2B6F0036C4AA /* imageHackwhich.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3DB26841B4C2B6F0036C4AA /* imageHackwhichTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3DB269C1B4C2B6F0036C4AA /* Build configuration list for PBXNativeTarget "imageHackwhichTests" */;
+			buildPhases = (
+				F3DB26811B4C2B6F0036C4AA /* Sources */,
+				F3DB26821B4C2B6F0036C4AA /* Frameworks */,
+				F3DB26831B4C2B6F0036C4AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3DB26871B4C2B6F0036C4AA /* PBXTargetDependency */,
+			);
+			name = imageHackwhichTests;
+			productName = imageHackwhichTests;
+			productReference = F3DB26851B4C2B6F0036C4AA /* imageHackwhichTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3DB268F1B4C2B6F0036C4AA /* imageHackwhichUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3DB269F1B4C2B6F0036C4AA /* Build configuration list for PBXNativeTarget "imageHackwhichUITests" */;
+			buildPhases = (
+				F3DB268C1B4C2B6F0036C4AA /* Sources */,
+				F3DB268D1B4C2B6F0036C4AA /* Frameworks */,
+				F3DB268E1B4C2B6F0036C4AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3DB26921B4C2B6F0036C4AA /* PBXTargetDependency */,
+			);
+			name = imageHackwhichUITests;
+			productName = imageHackwhichUITests;
+			productReference = F3DB26901B4C2B6F0036C4AA /* imageHackwhichUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3DB26691B4C2B6E0036C4AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = EGGROLLS;
+				TargetAttributes = {
+					F3DB26701B4C2B6F0036C4AA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F3DB26841B4C2B6F0036C4AA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F3DB26701B4C2B6F0036C4AA;
+					};
+					F3DB268F1B4C2B6F0036C4AA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F3DB26701B4C2B6F0036C4AA;
+					};
+				};
+			};
+			buildConfigurationList = F3DB266C1B4C2B6E0036C4AA /* Build configuration list for PBXProject "imageHackwhich" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3DB26681B4C2B6E0036C4AA;
+			productRefGroup = F3DB26721B4C2B6F0036C4AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3DB26701B4C2B6F0036C4AA /* imageHackwhich */,
+				F3DB26841B4C2B6F0036C4AA /* imageHackwhichTests */,
+				F3DB268F1B4C2B6F0036C4AA /* imageHackwhichUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3DB266F1B4C2B6F0036C4AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DB267F1B4C2B6F0036C4AA /* LaunchScreen.storyboard in Resources */,
+				F3DB267C1B4C2B6F0036C4AA /* Assets.xcassets in Resources */,
+				F3DB267A1B4C2B6F0036C4AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DB26831B4C2B6F0036C4AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DB268E1B4C2B6F0036C4AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3DB266D1B4C2B6F0036C4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DB26771B4C2B6F0036C4AA /* ViewController.swift in Sources */,
+				F3DB26751B4C2B6F0036C4AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DB26811B4C2B6F0036C4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DB268A1B4C2B6F0036C4AA /* imageHackwhichTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DB268C1B4C2B6F0036C4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DB26951B4C2B6F0036C4AA /* imageHackwhichUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3DB26871B4C2B6F0036C4AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3DB26701B4C2B6F0036C4AA /* imageHackwhich */;
+			targetProxy = F3DB26861B4C2B6F0036C4AA /* PBXContainerItemProxy */;
+		};
+		F3DB26921B4C2B6F0036C4AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3DB26701B4C2B6F0036C4AA /* imageHackwhich */;
+			targetProxy = F3DB26911B4C2B6F0036C4AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3DB26781B4C2B6F0036C4AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3DB26791B4C2B6F0036C4AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3DB267D1B4C2B6F0036C4AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3DB267E1B4C2B6F0036C4AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3DB26971B4C2B6F0036C4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3DB26981B4C2B6F0036C4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3DB269A1B4C2B6F0036C4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = imageHackwhich/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhu.imageHackwhich;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3DB269B1B4C2B6F0036C4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = imageHackwhich/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhu.imageHackwhich;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3DB269D1B4C2B6F0036C4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = imageHackwhichTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhu.imageHackwhichTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imageHackwhich.app/imageHackwhich";
+			};
+			name = Debug;
+		};
+		F3DB269E1B4C2B6F0036C4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = imageHackwhichTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhu.imageHackwhichTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imageHackwhich.app/imageHackwhich";
+			};
+			name = Release;
+		};
+		F3DB26A01B4C2B6F0036C4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = imageHackwhichUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhu.imageHackwhichUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = imageHackwhich;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F3DB26A11B4C2B6F0036C4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = imageHackwhichUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhu.imageHackwhichUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = imageHackwhich;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3DB266C1B4C2B6E0036C4AA /* Build configuration list for PBXProject "imageHackwhich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DB26971B4C2B6F0036C4AA /* Debug */,
+				F3DB26981B4C2B6F0036C4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3DB26991B4C2B6F0036C4AA /* Build configuration list for PBXNativeTarget "imageHackwhich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DB269A1B4C2B6F0036C4AA /* Debug */,
+				F3DB269B1B4C2B6F0036C4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3DB269C1B4C2B6F0036C4AA /* Build configuration list for PBXNativeTarget "imageHackwhichTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DB269D1B4C2B6F0036C4AA /* Debug */,
+				F3DB269E1B4C2B6F0036C4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3DB269F1B4C2B6F0036C4AA /* Build configuration list for PBXNativeTarget "imageHackwhichUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DB26A01B4C2B6F0036C4AA /* Debug */,
+				F3DB26A11B4C2B6F0036C4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3DB26691B4C2B6E0036C4AA /* Project object */;
+}

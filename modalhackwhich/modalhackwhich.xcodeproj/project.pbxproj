@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3DB26371B4C283A0036C4AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DB26361B4C283A0036C4AA /* AppDelegate.swift */; };
+		F3DB26391B4C283A0036C4AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DB26381B4C283A0036C4AA /* ViewController.swift */; };
+		F3DB263C1B4C283A0036C4AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DB263A1B4C283A0036C4AA /* Main.storyboard */; };
+		F3DB263E1B4C283A0036C4AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DB263D1B4C283A0036C4AA /* Assets.xcassets */; };
+		F3DB26411B4C283A0036C4AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DB263F1B4C283A0036C4AA /* LaunchScreen.storyboard */; };
+		F3DB264C1B4C283A0036C4AA /* modalhackwhichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DB264B1B4C283A0036C4AA /* modalhackwhichTests.swift */; };
+		F3DB26571B4C283A0036C4AA /* modalhackwhichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DB26561B4C283A0036C4AA /* modalhackwhichUITests.swift */; };
+		F3DB26671B4C29390036C4AA /* modalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DB26661B4C29390036C4AA /* modalViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3DB26481B4C283A0036C4AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3DB262B1B4C283A0036C4AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3DB26321B4C283A0036C4AA;
+			remoteInfo = modalhackwhich;
+		};
+		F3DB26531B4C283A0036C4AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3DB262B1B4C283A0036C4AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3DB26321B4C283A0036C4AA;
+			remoteInfo = modalhackwhich;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3DB26331B4C283A0036C4AA /* modalhackwhich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modalhackwhich.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DB26361B4C283A0036C4AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3DB26381B4C283A0036C4AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3DB263B1B4C283A0036C4AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3DB263D1B4C283A0036C4AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3DB26401B4C283A0036C4AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3DB26421B4C283A0036C4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3DB26471B4C283A0036C4AA /* modalhackwhichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modalhackwhichTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DB264B1B4C283A0036C4AA /* modalhackwhichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modalhackwhichTests.swift; sourceTree = "<group>"; };
+		F3DB264D1B4C283A0036C4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3DB26521B4C283A0036C4AA /* modalhackwhichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modalhackwhichUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DB26561B4C283A0036C4AA /* modalhackwhichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modalhackwhichUITests.swift; sourceTree = "<group>"; };
+		F3DB26581B4C283A0036C4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3DB26661B4C29390036C4AA /* modalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = modalViewController.swift; path = ../modalViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3DB26301B4C283A0036C4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DB26441B4C283A0036C4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DB264F1B4C283A0036C4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3DB262A1B4C283A0036C4AA = {
+			isa = PBXGroup;
+			children = (
+				F3DB26351B4C283A0036C4AA /* modalhackwhich */,
+				F3DB264A1B4C283A0036C4AA /* modalhackwhichTests */,
+				F3DB26551B4C283A0036C4AA /* modalhackwhichUITests */,
+				F3DB26341B4C283A0036C4AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3DB26341B4C283A0036C4AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3DB26331B4C283A0036C4AA /* modalhackwhich.app */,
+				F3DB26471B4C283A0036C4AA /* modalhackwhichTests.xctest */,
+				F3DB26521B4C283A0036C4AA /* modalhackwhichUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3DB26351B4C283A0036C4AA /* modalhackwhich */ = {
+			isa = PBXGroup;
+			children = (
+				F3DB26361B4C283A0036C4AA /* AppDelegate.swift */,
+				F3DB26381B4C283A0036C4AA /* ViewController.swift */,
+				F3DB26661B4C29390036C4AA /* modalViewController.swift */,
+				F3DB263A1B4C283A0036C4AA /* Main.storyboard */,
+				F3DB263D1B4C283A0036C4AA /* Assets.xcassets */,
+				F3DB263F1B4C283A0036C4AA /* LaunchScreen.storyboard */,
+				F3DB26421B4C283A0036C4AA /* Info.plist */,
+			);
+			path = modalhackwhich;
+			sourceTree = "<group>";
+		};
+		F3DB264A1B4C283A0036C4AA /* modalhackwhichTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3DB264B1B4C283A0036C4AA /* modalhackwhichTests.swift */,
+				F3DB264D1B4C283A0036C4AA /* Info.plist */,
+			);
+			path = modalhackwhichTests;
+			sourceTree = "<group>";
+		};
+		F3DB26551B4C283A0036C4AA /* modalhackwhichUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3DB26561B4C283A0036C4AA /* modalhackwhichUITests.swift */,
+				F3DB26581B4C283A0036C4AA /* Info.plist */,
+			);
+			path = modalhackwhichUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3DB26321B4C283A0036C4AA /* modalhackwhich */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3DB265B1B4C283A0036C4AA /* Build configuration list for PBXNativeTarget "modalhackwhich" */;
+			buildPhases = (
+				F3DB262F1B4C283A0036C4AA /* Sources */,
+				F3DB26301B4C283A0036C4AA /* Frameworks */,
+				F3DB26311B4C283A0036C4AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = modalhackwhich;
+			productName = modalhackwhich;
+			productReference = F3DB26331B4C283A0036C4AA /* modalhackwhich.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3DB26461B4C283A0036C4AA /* modalhackwhichTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3DB265E1B4C283A0036C4AA /* Build configuration list for PBXNativeTarget "modalhackwhichTests" */;
+			buildPhases = (
+				F3DB26431B4C283A0036C4AA /* Sources */,
+				F3DB26441B4C283A0036C4AA /* Frameworks */,
+				F3DB26451B4C283A0036C4AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3DB26491B4C283A0036C4AA /* PBXTargetDependency */,
+			);
+			name = modalhackwhichTests;
+			productName = modalhackwhichTests;
+			productReference = F3DB26471B4C283A0036C4AA /* modalhackwhichTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3DB26511B4C283A0036C4AA /* modalhackwhichUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3DB26611B4C283A0036C4AA /* Build configuration list for PBXNativeTarget "modalhackwhichUITests" */;
+			buildPhases = (
+				F3DB264E1B4C283A0036C4AA /* Sources */,
+				F3DB264F1B4C283A0036C4AA /* Frameworks */,
+				F3DB26501B4C283A0036C4AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3DB26541B4C283A0036C4AA /* PBXTargetDependency */,
+			);
+			name = modalhackwhichUITests;
+			productName = modalhackwhichUITests;
+			productReference = F3DB26521B4C283A0036C4AA /* modalhackwhichUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3DB262B1B4C283A0036C4AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = EGGROLLS;
+				TargetAttributes = {
+					F3DB26321B4C283A0036C4AA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F3DB26461B4C283A0036C4AA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F3DB26321B4C283A0036C4AA;
+					};
+					F3DB26511B4C283A0036C4AA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F3DB26321B4C283A0036C4AA;
+					};
+				};
+			};
+			buildConfigurationList = F3DB262E1B4C283A0036C4AA /* Build configuration list for PBXProject "modalhackwhich" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3DB262A1B4C283A0036C4AA;
+			productRefGroup = F3DB26341B4C283A0036C4AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3DB26321B4C283A0036C4AA /* modalhackwhich */,
+				F3DB26461B4C283A0036C4AA /* modalhackwhichTests */,
+				F3DB26511B4C283A0036C4AA /* modalhackwhichUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3DB26311B4C283A0036C4AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DB26411B4C283A0036C4AA /* LaunchScreen.storyboard in Resources */,
+				F3DB263E1B4C283A0036C4AA /* Assets.xcassets in Resources */,
+				F3DB263C1B4C283A0036C4AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DB26451B4C283A0036C4AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DB26501B4C283A0036C4AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3DB262F1B4C283A0036C4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DB26671B4C29390036C4AA /* modalViewController.swift in Sources */,
+				F3DB26391B4C283A0036C4AA /* ViewController.swift in Sources */,
+				F3DB26371B4C283A0036C4AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DB26431B4C283A0036C4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DB264C1B4C283A0036C4AA /* modalhackwhichTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DB264E1B4C283A0036C4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DB26571B4C283A0036C4AA /* modalhackwhichUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3DB26491B4C283A0036C4AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3DB26321B4C283A0036C4AA /* modalhackwhich */;
+			targetProxy = F3DB26481B4C283A0036C4AA /* PBXContainerItemProxy */;
+		};
+		F3DB26541B4C283A0036C4AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3DB26321B4C283A0036C4AA /* modalhackwhich */;
+			targetProxy = F3DB26531B4C283A0036C4AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3DB263A1B4C283A0036C4AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3DB263B1B4C283A0036C4AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3DB263F1B4C283A0036C4AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3DB26401B4C283A0036C4AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3DB26591B4C283A0036C4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3DB265A1B4C283A0036C4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3DB265C1B4C283A0036C4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = modalhackwhich/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhu.modalhackwhich;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3DB265D1B4C283A0036C4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = modalhackwhich/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhu.modalhackwhich;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3DB265F1B4C283A0036C4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = modalhackwhichTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhu.modalhackwhichTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/modalhackwhich.app/modalhackwhich";
+			};
+			name = Debug;
+		};
+		F3DB26601B4C283A0036C4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = modalhackwhichTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhu.modalhackwhichTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/modalhackwhich.app/modalhackwhich";
+			};
+			name = Release;
+		};
+		F3DB26621B4C283A0036C4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = modalhackwhichUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhu.modalhackwhichUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = modalhackwhich;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F3DB26631B4C283A0036C4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = modalhackwhichUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhu.modalhackwhichUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = modalhackwhich;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3DB262E1B4C283A0036C4AA /* Build configuration list for PBXProject "modalhackwhich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DB26591B4C283A0036C4AA /* Debug */,
+				F3DB265A1B4C283A0036C4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3DB265B1B4C283A0036C4AA /* Build configuration list for PBXNativeTarget "modalhackwhich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DB265C1B4C283A0036C4AA /* Debug */,
+				F3DB265D1B4C283A0036C4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3DB265E1B4C283A0036C4AA /* Build configuration list for PBXNativeTarget "modalhackwhichTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DB265F1B4C283A0036C4AA /* Debug */,
+				F3DB26601B4C283A0036C4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3DB26611B4C283A0036C4AA /* Build configuration list for PBXNativeTarget "modalhackwhichUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DB26621B4C283A0036C4AA /* Debug */,
+				F3DB26631B4C283A0036C4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3DB262B1B4C283A0036C4AA /* Project object */;
+}
